@@ -1,0 +1,40 @@
+body{
+    font-family: 'Pacifico', cursive;
+}
+#container{
+    height: 200px;
+    background-color: grey;
+    border-radius: 5px;
+}
+#question{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+#answer-container{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+#answer-container > div{
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    color: white;
+}
+#answer1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+#answer2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
