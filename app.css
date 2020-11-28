@@ -19,21 +19,21 @@ body{
 }
 
 #answer-container > div{
-    width: 200px;
-    height: 100px;
+    width: 400px;
+    height: 200px;
     border-radius: 5px;
     color: white;
 }
 #answer1{
     display: flex;
     justify-content: center;
-    align-content: center;
-    
+    background-color: #ef476f;
 }
 #answer2{
     display: flex;
     justify-content: center;
     align-content: center;
+    background-color: #06d6a0;
 }
 .reverse{
     flex-direction: row-reverse;
