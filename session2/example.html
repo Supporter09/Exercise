@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="example.css">
+    <title>Document</title>
+</head>
+<body>
+    // Custom Elements
+    <hello-world></hello-world>
+
+
+    //Shadow Dom 
+    <div id="example">This will use the CSS background</div>
+    <button id="button">Not blue LMAO</button>
+<br>
+    //HTML Templates
+    <template id="book-template">
+        <li><span class="title"></span> &mdash; <span class="author"></span></li>
+      </template>
+      
+      <template id="book-template-2">
+        <li><span class="author"></span>'s classic novel <span class="title"></span></li>
+      </template>
+      
+      <ul id="books"></ul>
+      
+      <fieldset id="templates">
+        <legend>Choose template</legend>
+        
+        <label>
+          <input type="radio" name="template" value="book-template" checked> Template One
+        </label>
+        <label>
+          <input type="radio" name="template" value="book-template-2"> Template Two
+        </label>
+      </fieldset>
+
+
+    <script src="example.js"></script>
+</body>
+</html>
